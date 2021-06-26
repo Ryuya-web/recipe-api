@@ -1,5 +1,4 @@
 class Recipe < ApplicationRecord
-    validates :id, presence: true
     validates :title, presence: true
     validates :making_time, presence: true
     validates :serves, presence: true
